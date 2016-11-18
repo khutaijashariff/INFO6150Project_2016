@@ -1,0 +1,355 @@
+
+<!DOCTYPE html>
+
+<html >
+	<head>
+	<meta charset="utf-8">
+	<title>Aurora</title>
+	<link rel="shortcut icon" href="favicon.ico">
+	<link rel="stylesheet" href="css/animate.css">
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/superfish.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/stylesheetmap.css">
+	
+	<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
+	<script type="text/javascript">
+	var iwopened=null;
+	var map = null;
+	var geocoder = null;
+	var markers = new Array();
+	var interval = setInterval("updateMarker()", 1000);
+	function clearAndShowMarker(country)
+	{
+		for (var i = 0; i < markers.length; i++) 
+		{
+			if (markers[i].title == country) 
+			{
+				markers[i].setMap(map);
+			}
+			else
+			{
+				markers[i].setMap(null);
+			}
+		}
+	}
+
+	function addMarker(city, country)
+	{
+		geocoder = new google.maps.Geocoder;
+		geocoder.geocode( { 'address': city+', '+country}, function(results, status) 
+		{
+          	if (status == google.maps.GeocoderStatus.OK) 
+          	{
+          		var marker = new google.maps.Marker(
+      			{
+          			map: null,
+          			position: results[0].geometry.location,
+          			title: country
+      			});
+      			var contentString = '<div id="content"><a href="'+city+'.html">'+city+'</a></div>';
+
+				var infowindow = new google.maps.InfoWindow({
+    				content: contentString
+				});
+
+				google.maps.event.addListener(marker, 'click', function () {
+					if(iwopened!=null)
+					{
+						iwopened.close();
+					}
+    				infowindow.open(map, marker);
+    				iwopened = infowindow;
+				});
+				markers.push(marker);
+          	}
+        });
+	}
+
+	function infoWindowContent() 
+	{
+		
+		addMarker("Seattle", "US");
+		addMarker("New York", "US");
+		addMarker("Boston", "US");
+		addMarker("Beijing", "CN");
+		addMarker("Shanghai", "CN");
+		addMarker("Guangzhou", "CN");
+		addMarker("Mumbai", "IN");
+		addMarker("Kashmir", "IN");
+		addMarker("Bangalore", "IN");
+	}
+
+	function updateMarker()
+	{
+
+    	if (markers.length == 9) 
+    	{
+    		clearInterval(interval);
+    		clearAndShowMarker("US");
+    	}
+	}
+
+	function updateTitleAndContent(country)
+	{
+		var link1 = document.getElementById("link1");
+		var link2 = document.getElementById("link2");
+		var link3 = document.getElementById("link3");
+		var title1 = document.getElementById("title1");
+		var title2 = document.getElementById("title2");
+		var title3 = document.getElementById("title3");
+		var content1 = document.getElementById("content1");
+		var content2 = document.getElementById("content2");
+		var content3 = document.getElementById("content3");
+		if(country == "CN")
+		{
+			link1.href = "Beijing.html";
+			title1.innerHTML = "Beijing";
+			content1.innerHTML = "修改这里 asdfasjdhfahsdjfklasjdfklhasjkdfhajk shdfjklahskjdhfkjashdfjkahsjkdfhkajshdfj kashdjkfhkjashdfkhakjsdhfkjshdjkfhasjkdfhsjhdfkjs";
+			link2.href = "Shanghai.html";
+			title2.innerHTML = "Shanghai";
+			content2.innerHTML = "修改这里 asdfasjdhfahsdjfklasjdfklhasjkdfhajk shdfjklahskjdhfkjashdfjkahsjkdfhkajshdfj kashdjkfhkjashdfkhakjsdhfkjshdjkfhasjkdfhsjhdfkjs";
+			link3.href = "Guangzhou.html";
+			title3.innerHTML = "Guangzhou";
+			content3.innerHTML = "修改这里 asdfasjdhfahsdjfklasjdfklhasjkdfhajk shdfjklahskjdhfkjashdfjkahsjkdfhkajshdfj kashdjkfhkjashdfkhakjsdhfkjshdjkfhasjkdfhsjhdfkjs";
+
+		}
+		else if (country == "US") 
+		{
+			link1.href = "New York.html";
+			title1.innerHTML = "New York";
+			content1.innerHTML = "修改这里 asdfasjdhfahsdjfklasjdfklhasjkdfhajk shdfjklahskjdhfkjashdfjkahsjkdfhkajshdfj kashdjkfhkjashdfkhakjsdhfkjshdjkfhasjkdfhsjhdfkjs";
+			link2.href = "#";
+			title2.innerHTML = "Seattle";
+			content2.innerHTML = "修改这里 asdfasjdhfahsdjfklasjdfklhasjkdfhajk shdfjklahskjdhfkjashdfjkahsjkdfhkajshdfj kashdjkfhkjashdfkhakjsdhfkjshdjkfhasjkdfhsjhdfkjs";
+			link3.href = "#";
+			title3.innerHTML = "Boston";
+			content3.innerHTML = "修改这里 asdfasjdhfahsdjfklasjdfklhasjkdfhajk shdfjklahskjdhfkjashdfjkahsjkdfhkajshdfj kashdjkfhkjashdfkhakjsdhfkjshdjkfhasjkdfhsjhdfkjs";
+		}
+		else if (country == "IN") 
+		{
+			link1.href = "Kashmir.html";
+			title1.innerHTML = "Kashmir";
+			content1.innerHTML = "修改这里 asdfasjdhfahsdjfklasjdfklhasjkdfhajk shdfjklahskjdhfkjashdfjkahsjkdfhkajshdfj kashdjkfhkjashdfkhakjsdhfkjshdjkfhasjkdfhsjhdfkjs";
+			link2.href = "#";
+			title2.innerHTML = "Mumbai";
+			content2.innerHTML = "修改这里 asdfasjdhfahsdjfklasjdfklhasjkdfhajk shdfjklahskjdhfkjashdfjkahsjkdfhkajshdfj kashdjkfhkjashdfkhakjsdhfkjshdjkfhasjkdfhsjhdfkjs";
+			link3.href = "#";
+			title3.innerHTML = "Bangalore";
+			content3.innerHTML = "修改这里 asdfasjdhfahsdjfklasjdfklhasjkdfhajk shdfjklahskjdhfkjashdfjkahsjkdfhkajshdfj kashdjkfhkjashdfkhakjsdhfkjshdjkfhasjkdfhsjhdfkjs";
+		}
+	}
+
+	function initialize() 
+	{
+		updateTitleAndContent("US");
+		geocoder = new google.maps.Geocoder;
+		geocoder.geocode( { 'address': 'America, America'}, function(results, status) 
+		{
+          	if (status == google.maps.GeocoderStatus.OK) 
+          	{
+            	var mapOptions = 
+            	{
+					zoom: 3,
+					mapTypeControl: false,
+      				scaleControl: false,
+      				navigationControl: false,
+      				streetViewControl: false,
+					center: results[0].geometry.location,
+					styles: [
+            			{elementType: 'geometry', stylers: [{color: '#242f3e'}]},
+            			{elementType: 'labels.text.stroke', stylers: [{color: '#242f3e'}]},
+            			{elementType: 'labels.text.fill', stylers: [{color: '#e1e3e8'}]},
+            			{
+              			featureType: 'administrative.locality',
+              			elementType: 'labels.text.fill',
+              			stylers: [{color: '#d59563'}]
+            			},
+            			{
+			              featureType: 'poi',
+			              elementType: 'labels.text.fill',
+			              stylers: [{color: '#d59563'}]
+			            },
+			            {
+			              featureType: 'poi.park',
+			              elementType: 'geometry',
+			              stylers: [{color: '#263c3f'}]
+			            },
+			            {
+			              featureType: 'poi.park',
+			              elementType: 'labels.text.fill',
+			              stylers: [{color: '#6b9a76'}]
+			            },
+			            {
+			              featureType: 'road',
+			              elementType: 'geometry',
+			              stylers: [{color: '#38414e'}]
+			            },
+			            {
+			              featureType: 'road',
+			              elementType: 'geometry.stroke',
+			              stylers: [{color: '#212a37'}]
+			            },
+			            {
+			              featureType: 'road',
+			              elementType: 'labels.text.fill',
+			              stylers: [{color: '#9ca5b3'}]
+			            },
+			            {
+			              featureType: 'road.highway',
+			              elementType: 'geometry',
+			              stylers: [{color: '#746855'}]
+			            },
+			            {
+			              featureType: 'road.highway',
+			              elementType: 'geometry.stroke',
+			              stylers: [{color: '#1f2835'}]
+			            },
+			            {
+			              featureType: 'road.highway',
+			              elementType: 'labels.text.fill',
+			              stylers: [{color: '#f3d19c'}]
+			            },
+			            {
+			              featureType: 'transit',
+			              elementType: 'geometry',
+			              stylers: [{color: '#2f3948'}]
+			            },
+			            {
+			              featureType: 'transit.station',
+			              elementType: 'labels.text.fill',
+			              stylers: [{color: '#d59563'}]
+			            },
+			            {
+			              featureType: 'water',
+			              elementType: 'geometry',
+			              stylers: [{color: '#17263c'}]
+			            },
+			            {
+			              featureType: 'water',
+			              elementType: 'labels.text.fill',
+			              stylers: [{color: '#515c6d'}]
+			            },
+			            {
+			              featureType: 'water',
+			              elementType: 'labels.text.stroke',
+			              stylers: [{color: '#17263c'}]
+			            }
+			          ]
+				};
+				map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
+				var layer = new google.maps.FusionTablesLayer(
+				{
+ 					query: 
+ 					{
+    					select: 'geometry',
+    					from: '1N2LBk4JHwWpOY4d9fobIn27lfnZ5MDy-NoqqRpk',
+    					where: "ISO_2DIGIT IN ('US','CN', 'IN')"
+  					}
+  				});
+  				layer.setMap(map);
+				infoWindowContent();
+				google.maps.event.addListener(map, 'zoom_changed', function() {  
+    				if (map.getZoom() < 2)
+    				{
+    					 map.setZoom(2);
+    				}
+    				else if(map.getZoom() > 4)
+    				{
+    					map.setZoom(4);
+    				}
+				});
+  				google.maps.event.addListener(layer, "click", function(event) 
+  				{
+  					if (event.row.ISO_2DIGIT.value == "CN") 
+  					{
+  						event.infoWindowHtml = "China";
+  						clearAndShowMarker("CN");
+  						updateTitleAndContent("CN");
+  					}
+  					else if (event.row.ISO_2DIGIT.value == "IN") 
+  					{
+						event.infoWindowHtml = "India";
+  						clearAndShowMarker("IN");
+  						updateTitleAndContent("IN");
+  					}
+  					else if (event.row.ISO_2DIGIT.value == "US") 
+  					{
+						event.infoWindowHtml = "USA";
+  						clearAndShowMarker("US");
+  						updateTitleAndContent("US");
+  					}	
+  				}, false);
+  				
+  				
+  				
+        	} 
+        	else 
+        	{
+            	alert('Geocode was not successful for the following reason: ' + status);
+        	}
+
+        });
+	}
+	google.maps.event.addDomListener(window, 'load', initialize);
+	</script>
+	</head>
+	<body onload="initialize()">
+		<div id="fh5co-wrapper">
+		<div id="fh5co-page">
+		<div id="fh5co-header">
+			<header id="fh5co-header-section">
+				<div class="container">
+					<div class="nav-header">
+						<a href="#" class="fh5co-nav-toggle"><i></i></a>
+						<h1 id="fh5co-logo"><a href="index.html">Aurora</a></h1>
+						<nav id="fh5co-menu-wrap" role="navigation">
+							<ul class="sf-menu" id="fh5co-primary-menu">
+								<li class="active">
+									<a href="index.html">Home</a>
+								</li>
+								<li><a href="myaccount.html">My Account</a></li>
+								<li><a href="login.html">Sign out</a></li>
+							</ul>
+						</nav>
+					</div>
+				</div>
+			</header>
+		</div>
+		<div class="fh5co-section">
+			<div class="mapdiv" id="map-canvas" style="height: 450px"></div>
+		</div>
+		<div class="fh5co-section">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6 fh5co-news">
+						<h3>USA</h3>
+						<ul>
+							<li>
+								<a id="link1" href="#">
+									<h3 id="title1"></h3>
+									<p id="content1"></p>
+								</a>
+							</li>
+							<li>
+								<a id="link2" href="#">
+									<h3 id="title2"></h3>
+									<p id="content2"></p>
+								</a>
+							</li>
+							<li>
+								<a id="link3" href="#">
+									<h3 id="title3"></h3>
+									<p id="content3"></p>
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	</div>
+	</body>
+</html>
+
