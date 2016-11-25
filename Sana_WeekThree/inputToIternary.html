@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Input to Dynamic Iternary </title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+</head>
+<body>
+<button class="btn btn-success" onclick="openIternaryChina()">Pass value from from mapC</button>
+<button class="btn btn-success" onclick="openIternaryIndia()">Pass value from mapI</button>
+<button class="btn btn-success" onclick="openIternaryUSA()">Pass value from mapA</button>
+</body>
+<script>
+    function openIternaryChina() {
+        var cityNames = ['beijing', 'guangzhou', 'shanghai'];
+        localStorage.setItem('CityNames', JSON.stringify(cityNames));
+        window.location = 'iternaryChina.html';
+    }
+    function openIternaryIndia() {
+        var cityNames = ['kashmir', 'delhi', 'uttarPradesh'];
+        localStorage.setItem('CityNames', JSON.stringify(cityNames));
+        window.location = 'iternaryIndia.html';
+    }
+    function openIternaryUSA() {
+        var cityNames = ['newyork', 'alaska'];
+        localStorage.setItem('CityNames', JSON.stringify(cityNames));
+        window.location = 'iternaryAmerica.html';
+    }
+</script>
+</html>

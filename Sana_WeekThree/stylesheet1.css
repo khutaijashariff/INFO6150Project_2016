@@ -149,6 +149,10 @@ footer .navbar div {
     flex-wrap: wrap;
 }
 
+.container .flex-container h4 {
+   margin-right: 1%;
+}
+
 .flex-item {
     width: 300px;
     height: 400px;
