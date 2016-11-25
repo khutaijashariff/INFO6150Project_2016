@@ -1,0 +1,496 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="5c0b20bf-76b7-48c8-bbc0-081013a48259" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/bootstrap.min.css" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Lei_WeekOne/css/animate.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Lei_WeekOne/css/bootstrap.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Lei_WeekOne/css/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Lei_WeekOne/css/superfish.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Lei_WeekOne/images/cover_bg_1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Lei_WeekOne/images/img-1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Lei_WeekOne/images/img-2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Lei_WeekOne/images/img-3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Lei_WeekOne/images/img-4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Lei_WeekOne/images/img-5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Lei_WeekOne/images/img-6.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Lei_WeekOne/images/newblog.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Lei_WeekOne/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Lei_WeekTwo/css/bootstrap.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Sana_WeekOne/css/stylesheet.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Sana_WeekOne/images/Kashmir1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Sana_WeekOne/images/china.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Sana_WeekOne/images/colorado_mountains_hdr-wallpaper-3840x2160.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Sana_WeekOne/images/fog_over_golden_gate_bridge-wallpaper-5120x2880.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Sana_WeekOne/images/forbiddenCity.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Sana_WeekOne/images/indiaState1/chashmeShahi.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Sana_WeekOne/images/indiaState1/chenabBridge.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Sana_WeekOne/images/indiaState1/dalLake.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Sana_WeekOne/images/indiaState1/gulmarg.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Sana_WeekOne/images/indiaState1/pahalgam.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Sana_WeekOne/images/indiaState1/tulipGarden.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Sana_WeekOne/images/jammu.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Sana_WeekOne/images/redwoodCalifornia.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Sana_WeekOne/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Sana_WeekOne/js/myScript.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Sana_WeekTwo/css/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Sana_WeekTwo/index.html" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Lei_WeekTwo/Beijing.html" afterPath="$PROJECT_DIR$/Beijing.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Lei_WeekTwo/Guangzhou.html" afterPath="$PROJECT_DIR$/Guangzhou.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Lei_WeekTwo/Kashmir.html" afterPath="$PROJECT_DIR$/Kashmir.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Lei_WeekTwo/New York.html" afterPath="$PROJECT_DIR$/New York.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Lei_WeekTwo/Shanghai.html" afterPath="$PROJECT_DIR$/Shanghai.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Lei_WeekTwo/css/animate.css" afterPath="$PROJECT_DIR$/css/animate.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Lei_WeekTwo/css/bootstrap-theme.css" afterPath="$PROJECT_DIR$/css/bootstrap-theme.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Lei_WeekTwo/css/bootstrap-theme.min.css" afterPath="$PROJECT_DIR$/css/bootstrap-theme.min.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Lei_WeekTwo/css/bootstrap.css" afterPath="$PROJECT_DIR$/css/bootstrap.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Lei_WeekTwo/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Lei_WeekTwo/css/stylesheetmap.css" afterPath="$PROJECT_DIR$/css/stylesheetmap.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Lei_WeekTwo/css/superfish.css" afterPath="$PROJECT_DIR$/css/superfish.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Lei_WeekTwo/css/untitled.css" afterPath="$PROJECT_DIR$/css/untitled.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Lei_WeekTwo/fonts/glyphicons-halflings-regular.eot" afterPath="$PROJECT_DIR$/fonts/glyphicons-halflings-regular.eot" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Lei_WeekTwo/fonts/glyphicons-halflings-regular.svg" afterPath="$PROJECT_DIR$/fonts/glyphicons-halflings-regular.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Lei_WeekTwo/fonts/glyphicons-halflings-regular.ttf" afterPath="$PROJECT_DIR$/fonts/glyphicons-halflings-regular.ttf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Lei_WeekTwo/fonts/glyphicons-halflings-regular.woff" afterPath="$PROJECT_DIR$/fonts/glyphicons-halflings-regular.woff" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Lei_WeekTwo/fonts/glyphicons-halflings-regular.woff2" afterPath="$PROJECT_DIR$/fonts/glyphicons-halflings-regular.woff2" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Lei_WeekTwo/images/cover_bg_1.jpg" afterPath="$PROJECT_DIR$/pictures/cover_bg_1.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Lei_WeekTwo/images/cover_bg_1G.jpg" afterPath="$PROJECT_DIR$/pictures/cover_bg_1G.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Lei_WeekTwo/images/cover_bg_1K.jpg" afterPath="$PROJECT_DIR$/pictures/cover_bg_1K.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Lei_WeekTwo/images/cover_bg_1N.jpg" afterPath="$PROJECT_DIR$/pictures/cover_bg_1N.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Lei_WeekTwo/images/cover_bg_1S.jpg" afterPath="$PROJECT_DIR$/pictures/cover_bg_1S.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Lei_WeekTwo/images/img-1.jpg" afterPath="$PROJECT_DIR$/pictures/img-1.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Lei_WeekTwo/images/img-2.jpg" afterPath="$PROJECT_DIR$/pictures/img-2.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Lei_WeekTwo/images/img-3.jpg" afterPath="$PROJECT_DIR$/pictures/img-3.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Lei_WeekTwo/images/img-4.jpg" afterPath="$PROJECT_DIR$/pictures/img-4.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Lei_WeekTwo/images/img-5.jpg" afterPath="$PROJECT_DIR$/pictures/img-5.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Lei_WeekTwo/images/img-6.jpg" afterPath="$PROJECT_DIR$/pictures/img-6.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Lei_WeekTwo/images/imgG-1.jpg" afterPath="$PROJECT_DIR$/pictures/imgG-1.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Lei_WeekTwo/images/imgG-2.jpg" afterPath="$PROJECT_DIR$/pictures/imgG-2.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Lei_WeekTwo/images/imgG-3.jpg" afterPath="$PROJECT_DIR$/pictures/imgG-3.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Lei_WeekTwo/images/imgG-4.jpg" afterPath="$PROJECT_DIR$/pictures/imgG-4.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Lei_WeekTwo/images/imgG-5.jpg" afterPath="$PROJECT_DIR$/pictures/imgG-5.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Lei_WeekTwo/images/imgG-6.jpg" afterPath="$PROJECT_DIR$/pictures/imgG-6.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Lei_WeekTwo/images/imgK-1.jpg" afterPath="$PROJECT_DIR$/pictures/imgK-1.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Lei_WeekTwo/images/imgK-2.jpg" afterPath="$PROJECT_DIR$/pictures/imgK-2.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Lei_WeekTwo/images/imgK-3.jpg" afterPath="$PROJECT_DIR$/pictures/imgK-3.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Lei_WeekTwo/images/imgK-4.jpg" afterPath="$PROJECT_DIR$/pictures/imgK-4.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Lei_WeekTwo/images/imgK-5.jpg" afterPath="$PROJECT_DIR$/pictures/imgK-5.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Lei_WeekTwo/images/imgK-6.jpg" afterPath="$PROJECT_DIR$/pictures/imgK-6.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Lei_WeekTwo/images/imgN-1.jpg" afterPath="$PROJECT_DIR$/pictures/imgN-1.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Lei_WeekTwo/images/imgN-2.jpg" afterPath="$PROJECT_DIR$/pictures/imgN-2.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Lei_WeekTwo/images/imgN-3.jpg" afterPath="$PROJECT_DIR$/pictures/imgN-3.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Lei_WeekTwo/images/imgN-4.jpg" afterPath="$PROJECT_DIR$/pictures/imgN-4.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Lei_WeekTwo/images/imgN-5.jpg" afterPath="$PROJECT_DIR$/pictures/imgN-5.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Lei_WeekTwo/images/imgN-6.jpg" afterPath="$PROJECT_DIR$/pictures/imgN-6.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Lei_WeekTwo/images/imgS-1.jpg" afterPath="$PROJECT_DIR$/pictures/imgS-1.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Lei_WeekTwo/images/imgS-2.jpg" afterPath="$PROJECT_DIR$/pictures/imgS-2.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Lei_WeekTwo/images/imgS-3.jpg" afterPath="$PROJECT_DIR$/pictures/imgS-3.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Lei_WeekTwo/images/imgS-4.jpg" afterPath="$PROJECT_DIR$/pictures/imgS-4.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Lei_WeekTwo/images/imgS-5.jpg" afterPath="$PROJECT_DIR$/pictures/imgS-5.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Lei_WeekTwo/images/imgS-6.jpg" afterPath="$PROJECT_DIR$/pictures/imgS-6.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Lei_WeekTwo/images/newblog.jpg" afterPath="$PROJECT_DIR$/pictures/newblog.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Lei_WeekTwo/mapA.html" afterPath="$PROJECT_DIR$/mapA.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Lei_WeekTwo/mapC.html" afterPath="$PROJECT_DIR$/mapC.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Lei_WeekTwo/mapI.html" afterPath="$PROJECT_DIR$/mapI.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Sana_WeekTwo/css/stylesheet1.css" afterPath="$PROJECT_DIR$/css/stylesheet1.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Sana_WeekTwo/images/Kashmir1.jpg" afterPath="$PROJECT_DIR$/pictures/Kashmir1.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Sana_WeekTwo/images/china.jpg" afterPath="$PROJECT_DIR$/pictures/china.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Sana_WeekTwo/images/colorado_mountains_hdr-wallpaper-3840x2160.jpg" afterPath="$PROJECT_DIR$/pictures/colorado_mountains_hdr-wallpaper-3840x2160.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Sana_WeekTwo/images/forbiddenCity.jpg" afterPath="$PROJECT_DIR$/pictures/forbiddenCity.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Sana_WeekTwo/images/india.jpg" afterPath="$PROJECT_DIR$/pictures/india.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Sana_WeekTwo/images/indiaState1/chashmeShahi.jpg" afterPath="$PROJECT_DIR$/pictures/indiaState1/chashmeShahi.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Sana_WeekTwo/images/indiaState1/chenabBridge.jpg" afterPath="$PROJECT_DIR$/pictures/indiaState1/chenabBridge.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Sana_WeekTwo/images/indiaState1/dalLake.jpg" afterPath="$PROJECT_DIR$/pictures/indiaState1/dalLake.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Sana_WeekTwo/images/indiaState1/gulmarg.jpg" afterPath="$PROJECT_DIR$/pictures/indiaState1/gulmarg.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Sana_WeekTwo/images/indiaState1/pahalgam.jpg" afterPath="$PROJECT_DIR$/pictures/indiaState1/pahalgam.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Sana_WeekTwo/images/indiaState1/tulipGarden.jpg" afterPath="$PROJECT_DIR$/pictures/indiaState1/tulipGarden.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Sana_WeekTwo/images/jammu.jpg" afterPath="$PROJECT_DIR$/pictures/jammu.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Sana_WeekTwo/images/redwoodCalifornia.jpg" afterPath="$PROJECT_DIR$/pictures/redwoodCalifornia.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Sana_WeekTwo/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Sana_WeekTwo/iternary.html" afterPath="$PROJECT_DIR$/iternaryKashmir.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Sana_WeekTwo/js/myJavascript.js" afterPath="$PROJECT_DIR$/js/myJavascript.js" />
+    </list>
+    <ignored path="INFO6150Project_2016.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="INFO6150Project_2016" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="mapC.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/mapC.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="332">
+              <caret line="324" column="33" selection-start-line="324" selection-start-column="33" selection-end-line="324" selection-end-column="33" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Sana_WeekTwo/index.html" />
+        <option value="$PROJECT_DIR$/Sana_WeekTwo/js/myJavascript.js" />
+        <option value="$PROJECT_DIR$/js.js" />
+        <option value="$PROJECT_DIR$/mapA.html" />
+        <option value="$PROJECT_DIR$/Guangzhou.html" />
+        <option value="$PROJECT_DIR$/iternary.html" />
+        <option value="$PROJECT_DIR$/Shanghai.html" />
+        <option value="$PROJECT_DIR$/iternaryNewYork.html" />
+        <option value="$PROJECT_DIR$/Kashmir.html" />
+        <option value="$PROJECT_DIR$/New York.html" />
+        <option value="$PROJECT_DIR$/iternaryBeijing.html" />
+        <option value="$PROJECT_DIR$/Beijing.html" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/js/myJavascript.js" />
+        <option value="$PROJECT_DIR$/mapI.html" />
+        <option value="$PROJECT_DIR$/mapC.html" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="3" />
+    <option name="y" value="33" />
+    <option name="width" value="1440" />
+    <option name="height" value="813" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="INFO6150Project_2016" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="INFO6150Project_2016" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="INFO6150Project_2016" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="INFO6150Project_2016" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="INFO6150Project_2016" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="js-jscs-nodeInterpreter" value="$USER_HOME$/.nvm/versions/node/v4.4.7/bin/node" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/css" />
+      <recent name="$PROJECT_DIR$/js" />
+      <recent name="$PROJECT_DIR$/pictures" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
+      <method />
+    </configuration>
+    <configuration default="true" type="DartTestRunConfigurationType" factoryName="Dart Test">
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="cucumber.js" factoryName="Cucumber.js">
+      <option name="cucumberJsArguments" value="" />
+      <option name="executablePath" />
+      <option name="filePath" />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run-script" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory />
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui>bdd</ui>
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
+      <method />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5c0b20bf-76b7-48c8-bbc0-081013a48259" name="Default" comment="" />
+      <created>1479435062606</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1479435062606</updated>
+      <workItem from="1479435065219" duration="4895000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="4895000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="3" y="33" width="1440" height="813" extended-state="1" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Sana_WeekOne/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lei_WeekOne/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-690">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Guangzhou.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="62" selection-start-line="25" selection-start-column="62" selection-end-line="25" selection-end-column="62" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mapA.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="306" column="57" selection-start-line="306" selection-start-column="57" selection-end-line="306" selection-end-column="77" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Shanghai.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="251">
+          <caret line="25" column="56" selection-start-line="25" selection-start-column="56" selection-end-line="25" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/New York.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="572">
+          <caret line="144" column="31" selection-start-line="144" selection-start-column="31" selection-end-line="144" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Kashmir.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="416">
+          <caret line="54" column="60" selection-start-line="54" selection-start-column="60" selection-end-line="54" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/iternaryNewYork.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="332">
+          <caret line="109" column="48" selection-start-line="109" selection-start-column="48" selection-end-line="109" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/iternaryKashmir.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="662">
+          <caret line="127" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="127" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/iternaryBeijing.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="557">
+          <caret line="109" column="61" selection-start-line="109" selection-start-column="61" selection-end-line="109" selection-end-column="61" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Beijing.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="572">
+          <caret line="144" column="31" selection-start-line="144" selection-start-column="31" selection-end-line="144" selection-end-column="31" />
+          <folding>
+            <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mapI.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="287">
+          <caret line="325" column="33" selection-start-line="325" selection-start-column="33" selection-end-line="325" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/myJavascript.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="41" selection-start-line="12" selection-start-column="41" selection-end-line="12" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="81" column="71" selection-start-line="81" selection-start-column="71" selection-end-line="81" selection-end-column="71" />
+          <folding>
+            <element signature="n#style#0;n#h4#0;n#div#1;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mapC.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="332">
+          <caret line="324" column="33" selection-start-line="324" selection-start-column="33" selection-end-line="324" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
